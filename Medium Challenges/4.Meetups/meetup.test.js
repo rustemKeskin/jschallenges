@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 let Meetup = require('./meetup.js');
 
@@ -7,12 +7,6 @@ function dateAsString(year, month, day) {
   return date.toString();
 }
 
-// Define a class Meetup with a constructor taking a month and a year
-// and a method day(weekday, schedule).
-// where weekday is one of: monday, tuesday, wednesday, etc.
-// and schedule is: first, second, third, fourth, fifth, last, or teenth.
-
-/* eslint-disable-next-line max-lines-per-function, max-statements */
 describe("meetup()", () => {
   test("test first Monday of March 2013", () => {
     let meetup = new Meetup(2013, 3);
@@ -322,3 +316,14 @@ describe("meetup()", () => {
     expect(meetup.day('Sunday', 'teenth').toString()).toBe(expected);
   });
 });
+
+
+
+
+
+
+
+
+
+
+
